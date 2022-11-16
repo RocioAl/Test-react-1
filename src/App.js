@@ -33,9 +33,9 @@ function App() {
         placeholder="Buscar"
         onChange={search}
         ascending={sortAscending}
-        textAscending="Ascendiente"
+        textAscending="Ascendente"
         descending={sortDescending}
-        textDescending="Descendiente"
+        textDescending="Descendente"
       />
       <MiApi
         data={data}
