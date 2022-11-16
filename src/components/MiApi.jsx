@@ -25,6 +25,7 @@ const MiApi = (props) => {
     return (
         <div >
             <Container>
+                <Row><h1> Conoce sobre los personajes de Rick and Morty</h1></Row>
                 <Row xs={1} md={4} className="g-4">
                     {props.data.filter((card) =>
                         card.name.toLowerCase().includes(props.filterData)

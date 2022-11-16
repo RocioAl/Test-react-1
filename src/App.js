@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <Header
-        title="¡Conoce sobre los personajes de Rick and Morty!"
+        title="¡Rick and Morty!"
         placeholder="Buscar"
         onChange={search}
         ascending={sortAscending}
